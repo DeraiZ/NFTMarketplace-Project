@@ -15,7 +15,11 @@ const NavigationStack = () => (
         headerTitle: 'NFT-Marketplace'
     }}>
         <Stack.Screen name='Home' component={HomeScreen} />
-        <Stack.Screen name='Article' component={Article}/>
+        <Stack.Screen options={{headerTransparent: true,
+        headerStyle:{
+            backgroundColor:null,},
+            headerTitle: '',
+        }} name='Article' component={Article}/>
     </Stack.Navigator>
 )
 
