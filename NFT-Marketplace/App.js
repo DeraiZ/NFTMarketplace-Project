@@ -6,11 +6,12 @@ import {data} from "./src/data/data";
 import ArticleScreen from "./src/screen/ArticleScreen";
 import HomeScreen from "./src/screen/HomeScreen";
 
+
 export default function App() {
     // console.log(data)
   return (
       <NavigationContainer>
-          <NavigationStack articles={data}/>
+          <NavigationStack/>
           <StatusBar style="auto" />
       </NavigationContainer>
 
